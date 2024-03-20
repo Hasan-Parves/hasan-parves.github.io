@@ -1,0 +1,84 @@
+#education {
+    padding: 20px;
+  }
+  
+  .education-container {
+    display: flex;
+    width: 90%;
+    padding: 20px 10px;
+    margin: 0px auto;
+    margin-top: 2rem;
+  }
+
+  .education-container>* {
+    flex: 1;
+  }
+  
+  .education-heading {
+    font-size: 56px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  
+  .education-item {
+    margin-bottom: 30px;
+  }
+  
+  .degree {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .university {
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .date {
+    font-size: 16px;
+    color: #999;
+    margin-bottom: 10px;
+  }
+  
+  .thesis-topic-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .thesis-topic {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .tech-stack {
+    font-size: 16px;
+    color: #666;
+  }
+
+  .education-roundedimg {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    position: center;
+    object-fit: cover;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15rem;
+    height: 15rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+}
+
+@media (max-width: 1380px) {
+    
+    .education-roundedimg {
+        width: 6.5rem;
+        height: 6.5rem;
+    }
+}
